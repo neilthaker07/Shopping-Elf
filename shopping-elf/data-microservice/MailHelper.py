@@ -15,7 +15,7 @@ def sendemail(from_addr, to_addr_list, cc_addr_list,
 
     server = smtplib.SMTP(smtpserver)
     server.starttls()
-    server.login("shoppingelf.3clicks@gmail.com", "Testpwd@123")
+    server.login("x", "x")
     msg = MIMEMultipart()
     msg['From'] = from_addr
     msg['To'] = to_addr_list[0]
